@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    height: 913px;
+    padding: 80px;
+    background-color: rgb(145, 139, 139)
+}
+
+.div1 {
+    width: 50%;
+}
+
+.div2 {
+    width: 40%;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.growwork {
+    width: auto;
+    height: 25%;
+    margin-top: 130px;
+}
+
+.form {
+    border: 2px solid blue;
+    height: 750px;
+    margin-left: 38px;
+    padding-top: 200px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width : 500px) {
+    .main {
+        display: block;
+        height: 913px;
+        /* padding: 80px; */
+        padding-top: 5px;
+        background-color: white
+    }
+
+    .div1 {
+        width: auto;
+    }
+
+    .growwork {
+        width: auto;
+        height: 25%;
+        margin-top: 20px;
+    }
+
+    .div2 {
+        width: auto;
+        padding-top: 150px;
+        padding-left: 0;
+    }
+
+    img {
+    width: 100%;
+    height: auto;
+}
+}

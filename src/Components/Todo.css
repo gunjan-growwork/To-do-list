@@ -1,0 +1,15 @@
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+}
+
+.todo {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+}
+
+.top {
+    margin-top: 40px;
+}
